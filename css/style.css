@@ -18,4 +18,26 @@ header{
     color: rgb(231, 226, 74);
 }
 
+/* PORTFOLIO */
+
+
+/* ABOUT */
+
+.about__us{
+    background-color: rgb(92, 199, 163);
+    color: white;
+}
+
+.about__us .btn__download{
+    max-width: 130px;
+    margin: auto;
+
+}
+
+.btn__download{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+}
 
