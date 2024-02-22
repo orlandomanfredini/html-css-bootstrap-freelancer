@@ -47,3 +47,26 @@ form input{
     margin-top: 7px;
 }
 
+/* LOCATION */
+
+.location{
+    background-color: rgb(47, 65, 102);
+    color: white;
+}
+
+
+
+.border__circle i{
+    padding:7px;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+
+/* FOOTER */
+
+footer{
+    background-color:rgb(39, 51, 76) ;
+    color: white;
+    font-size: 14px;
+}
