@@ -8,3 +8,14 @@ header{
 }
 
 /* HERO */
+
+.hero{
+    background-color: rgb(92, 199, 163);
+    color: white;
+}
+
+.icon-hero i{
+    color: rgb(231, 226, 74);
+}
+
+
