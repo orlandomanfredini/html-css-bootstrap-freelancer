@@ -15,6 +15,10 @@ header ul li a{
     color: white;
 }
 
+header ul li a{
+    font-size: 13px;
+}
+
 /* HERO */
 
 .hero{
@@ -23,7 +27,7 @@ header ul li a{
 }
 
 .hero__image img{
-    max-width: 200px;
+    max-width: 220px;
 }
 
 .icon-star{
@@ -35,10 +39,11 @@ header ul li a{
     content: "";
     width: 60px;
     height: 2px;
+    border-radius: 15px;
     background-color: white;
     position: absolute;
     top: 50%;
-    left: 35%;
+    left:calc(50% - 60px - 12px)
     
 }
 
@@ -46,10 +51,11 @@ header ul li a{
     content: "";
     width: 60px;
     height: 2px;
+    border-radius: 15px;
     background-color: white;
     position: absolute;
     top: 50%;
-    right: 35%;
+    right: (50% - 60px - 12px)
     
 }
 
@@ -68,21 +74,22 @@ header ul li a{
     content: "";
     width: 60px;
     height: 2px;
+    border-radius: 15px;
     background-color: black;
     position: absolute;
     top: 50%;
-    left: 35%;
-    
+    left: calc(50% - 60px - 12px)
 }
 
 .icon-star-black::after{
     content: "";
     width: 60px;
     height: 2px;
+    border-radius: 15px;
     background-color: black;
     position: absolute;
     top: 50%;
-    right: 35%;
+    right: calc(50% - 60px - 12px)
     
 }
 
@@ -120,6 +127,23 @@ form input::placeholder{
     color: rgb(70, 68, 68);
 }
 
+form input[type=submit]{
+    width: 50px;
+    background-color: rgb(25, 188, 156);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+form textarea{
+    border: none;
+    outline: none;
+}
+
+form textarea::placeholder{
+    color: rgb(70, 68, 68);
+}
+
 /* LOCATION */
 
 .location{
@@ -152,8 +176,11 @@ footer{
         margin: auto;
     }
 
+
     .icon-star-black{
         width: 100%;
         margin: auto;
     }
+
+   
 }
