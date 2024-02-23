@@ -1,9 +1,17 @@
 /* boostrap mobile-first */
 
+/* RESET */
+
+
 /* HEADER */
 
 header{
     background-color: rgb(44, 62, 80) ;
+    color: white;
+}
+
+header ul li a{
+    text-decoration: none;
     color: white;
 }
 
