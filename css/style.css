@@ -3,7 +3,7 @@
 /* HEADER */
 
 header{
-    background-color: rgb(2, 39, 43);
+    background-color: rgb(44, 62, 80) ;
     color: white;
 }
 
@@ -14,11 +14,65 @@ header{
     color: white;
 }
 
-.icon-hero i{
-    color: rgb(231, 226, 74);
+.hero__image img{
+    max-width: 200px;
 }
 
+.icon-star{
+    position: relative;
+}
+
+.icon-star::before{
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: white;
+  left: 360px;
+  top: 50%;
+  position: absolute;
+}
+
+.icon-star::after{
+    content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: white;
+  right: 360px;
+  top: 50%;
+  position: absolute;
+}
+
+
+
 /* PORTFOLIO */
+
+.icon-star-black{
+    position: relative;
+}
+
+.icon-star-black::before{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: black;
+    left: 360px;
+    top: 50%;
+    position: absolute;
+  }
+  
+  .icon-star-black::after{
+      content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: black;
+    right: 360px;
+    top: 50%;
+    position: absolute;
+  }
 
 
 /* ABOUT */
@@ -45,6 +99,11 @@ header{
 
 form input{
     margin-top: 7px;
+    outline: none;
+}
+
+form input::placeholder{
+    color: rgb(70, 68, 68);
 }
 
 /* LOCATION */
