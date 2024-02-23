@@ -27,60 +27,66 @@ header ul li a{
 }
 
 .icon-star{
+    width: 500px;
     position: relative;
 }
 
 .icon-star::before{
-  content: "";
-  display: block;
-  width: 80px;
-  height: 2px;
-  background: white;
-  left: 360px;
-  top: 50%;
-  position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    
 }
 
 .icon-star::after{
     content: "";
-  display: block;
-  width: 80px;
-  height: 2px;
-  background: white;
-  right: 360px;
-  top: 50%;
-  position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: 35%;
+    
 }
+
+
 
 
 
 /* PORTFOLIO */
 
 .icon-star-black{
+    width: 500px;
     position: relative;
 }
 
 .icon-star-black::before{
     content: "";
-    display: block;
-    width: 80px;
+    width: 60px;
     height: 2px;
-    background: black;
-    left: 360px;
-    top: 50%;
+    background-color: black;
     position: absolute;
-  }
-  
-  .icon-star-black::after{
-      content: "";
-    display: block;
-    width: 80px;
+    top: 50%;
+    left: 35%;
+    
+}
+
+.icon-star-black::after{
+    content: "";
+    width: 60px;
     height: 2px;
-    background: black;
-    right: 360px;
-    top: 50%;
+    background-color: black;
     position: absolute;
-  }
+    top: 50%;
+    right: 35%;
+    
+}
+
+
 
 
 /* ABOUT */
@@ -136,4 +142,18 @@ footer{
     background-color:rgb(39, 51, 76) ;
     color: white;
     font-size: 14px;
+}
+
+/* media query */
+
+@media (max-width:620px){
+    .icon-star{
+        width: 100%;
+        margin: auto;
+    }
+
+    .icon-star-black{
+        width: 100%;
+        margin: auto;
+    }
 }
