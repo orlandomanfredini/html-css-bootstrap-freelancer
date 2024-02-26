@@ -31,7 +31,6 @@ header ul li a{
 }
 
 .icon-star{
-    width: 500px;
     position: relative;
 }
 
@@ -66,7 +65,7 @@ header ul li a{
 /* PORTFOLIO */
 
 .icon-star-black{
-    width: 500px;
+   
     position: relative;
 }
 
@@ -170,17 +169,3 @@ footer{
 
 /* media query */
 
-@media (max-width:620px){
-    .icon-star{
-        width: 100%;
-        margin: auto;
-    }
-
-
-    .icon-star-black{
-        width: 100%;
-        margin: auto;
-    }
-
-   
-}
